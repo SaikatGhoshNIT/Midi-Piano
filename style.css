@@ -23,13 +23,23 @@ height: calc(var(--width)*4);
 .white{
     --width :100px;
     background: white;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.white.active{
+    background: #ccc;  
 }
 .black{
     --width: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     background: black;
-    border: 1px solid black;
+    border: 1.5px solid rgb(75, 75, 75);
     margin-left: calc(var(--width)/-2);
     margin-right: calc(var(--width)/-2);
     z-index: 1;
+}
+.black.active{
+    background: #3a3939;  
 }
