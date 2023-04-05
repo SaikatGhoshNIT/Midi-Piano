@@ -1,0 +1,35 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+:root{
+    --primaryColor : #143F6B;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--primaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.piano{
+    display: flex;
+}
+.key{
+width: var(--width);
+height: calc(var(--width)*4);
+}
+.white{
+    --width :100px;
+    background: white;
+    border: 1px solid black;
+}
+.black{
+    --width: 60px;
+    background: black;
+    border: 1px solid black;
+    margin-left: calc(var(--width)/-2);
+    margin-right: calc(var(--width)/-2);
+    z-index: 1;
+}
