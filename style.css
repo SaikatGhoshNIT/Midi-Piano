@@ -27,6 +27,9 @@ height: calc(var(--width)*4);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     cursor: pointer;
+    text-align: center;
+    font-weight: 800;
+    padding-top: calc(var(--width)*3);
 }
 .white.active{
     background-color: #ccc;  
@@ -41,6 +44,9 @@ height: calc(var(--width)*4);
     margin-left: calc(var(--width)/-2);
     margin-right: calc(var(--width)/-2);
     cursor: pointer;
+    text-align: center;
+    font-weight: 800;
+    padding-top: calc(var(--width)*2);
     z-index: 1;
 }
 .black.active{
