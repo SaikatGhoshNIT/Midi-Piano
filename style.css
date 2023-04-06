@@ -36,6 +36,7 @@ height: calc(var(--width)*4);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: black;
+    color: white;
     border: 1.5px solid rgb(75, 75, 75);
     margin-left: calc(var(--width)/-2);
     margin-right: calc(var(--width)/-2);
