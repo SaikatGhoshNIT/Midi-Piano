@@ -11,9 +11,9 @@ keys.forEach(key=>{
 
 document.addEventListener('keydown', (e)=>{
     if(e.repeat) return  //e.repeat means if it have repeated calls
-const key = e.key
-const whitekeyIndex = WHITE_KEYS.indexOf(key)
-const blackkeyIndex = BLACK_KEYS.indexOf(key)
+    const key = e.key
+    const whitekeyIndex = WHITE_KEYS.indexOf(key)
+    const blackkeyIndex = BLACK_KEYS.indexOf(key)
 
 // The indexOf() method returns the first index (position) of a specified value. The indexOf() method returns -1 if the value is not found. The indexOf() method starts at a specified index and searches from left to right. By default the search starts at the first element and ends at the last.
 
